@@ -69,4 +69,20 @@ I looked at the distributions of the data and the value counts for the various c
 
    ![](Correlation.png)
 
+# Model Building
+
+First, I one-hot encoded the categorical variables. I then split the data into train and tests sets with a test size of 20%.
+
+I tried three different models and evaluated them using Mean Absolute Error. 
+
+I tried three different models:
+Multiple Linear Regression – Baseline for the model
+Lasso Regression – Because of the sparse data from the many categorical variables.
+Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+## Model performance
+
+The Random Forest model far outperformed the other approaches on the test and validation sets.
+
+Random Forest : MAE =  9.08
+Lasso Regression: MAE = 9.63
 
