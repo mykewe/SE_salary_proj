@@ -76,13 +76,13 @@ First, I one-hot encoded the categorical variables. I then split the data into t
 I tried three different models and evaluated them using Mean Absolute Error. 
 
 I tried three different models:
-Multiple Linear Regression – Baseline for the model
-Lasso Regression – Because of the sparse data from the many categorical variables.
-Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+Multiple Linear Regression – Baseline for the model. \
+Lasso Regression – Because of the sparse data from the many categorical variables. \
+Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
 ## Model performance
 
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
-Random Forest : MAE =  9.08
+Random Forest : MAE =  9.08 \
 Lasso Regression: MAE = 9.63
 
