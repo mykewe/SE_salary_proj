@@ -45,19 +45,19 @@ Tweaked the web scraper github repo (above) to scrape 1000 job postings from gla
 
 After scraping the data,  I did the following to clean the data to make it usable:
 
-Parsed numeric data out of salary \
-Removed rows without salary \
-Made a new column for mean salary \
-Parsed rating out of company text \
-Made a new column for company city and country \
-Added a column for if the job was at the company’s headquarters \
-Converted founded date into age of company \
-Made columns for if different skills were listed in the job description: \
-Python \
-Java \
-Javascript \ 
-C++ \
-Created column for simplified job title to see if the jobs are frontend, backend or fullstack \
-Made a column for description length \
+* Parsed numeric data out of salary 
+* Removed rows without salary 
+* Made a new column for mean salary 
+* Parsed rating out of company text 
+* Made a new column for company city and country 
+* Added a column for if the job was at the company’s headquarters
+* Converted founded date into age of company
+* Made columns for if different skills were listed in the job description: 
+..* Python 
+..* Java 
+..* Javascript 
+..* C++ 
+* Created column for simplified job title to see if the jobs are frontend, backend or fullstack 
+* Made a column for description length 
 
 
