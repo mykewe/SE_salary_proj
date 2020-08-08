@@ -15,10 +15,10 @@ This predicts salaries of software engineers in the United Kingdom.
 Python Version: 3.7 \
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle \
 For Web Framework Requirements: pip install -r requirements.txt \
-Scraper Github: https://github.com/arapfaik/scraping-glassdoor-selenium \
-Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905 \
-Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2 \
-Inspiration: https://github.com/PlayingNumbers/ds_salary_proj
+[Scraper Github]( https://github.com/arapfaik/scraping-glassdoor-selenium)\
+[Scraper Article]( https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905) \
+[Flask Productionization] ( https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) \
+[Inspiration] ( https://github.com/PlayingNumbers/ds_salary_proj)
 
 
 # Web Scraping
@@ -53,10 +53,10 @@ After scraping the data,  I did the following to clean the data to make it usabl
 * Added a column for if the job was at the company’s headquarters
 * Converted founded date into age of company
 * Made columns for if different skills were listed in the job description: 
-..* Python 
-..* Java 
-..* Javascript 
-..* C++ 
+  * Python 
+  * Java 
+  * Javascript 
+  * C++ 
 * Created column for simplified job title to see if the jobs are frontend, backend or fullstack 
 * Made a column for description length 
 
