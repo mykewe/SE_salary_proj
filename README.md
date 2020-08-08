@@ -17,8 +17,8 @@ Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pi
 For Web Framework Requirements: pip install -r requirements.txt \
 [Scraper Github]( https://github.com/arapfaik/scraping-glassdoor-selenium)\
 [Scraper Article]( https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905) \
-[Flask Productionization] ( https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) \
-[Inspiration] ( https://github.com/PlayingNumbers/ds_salary_proj)
+[Flask Productionization]( https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2) \
+[Inspiration]( https://github.com/PlayingNumbers/ds_salary_proj)
 
 
 # Web Scraping
@@ -59,5 +59,9 @@ After scraping the data,  I did the following to clean the data to make it usabl
   * C++ 
 * Created column for simplified job title to see if the jobs are frontend, backend or fullstack 
 * Made a column for description length 
+
+# Exploratory Data Analysis (EDA)
+
+![alt text][Correlation.png]
 
 
