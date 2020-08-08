@@ -62,11 +62,11 @@ After scraping the data,  I did the following to clean the data to make it usabl
 
 # Exploratory Data Analysis (EDA)
 
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. It is seen that there is a concentration of Jobs in London and that it doesn't really matter if you are a frontend, backend or fullstack software engineers in terms of salary.
+I looked at the distributions of the data and the value counts for the various categorical variables. A few highlights are shown below. It is seen that there is a concentration of Jobs in London and that you likely to get paid more if you are a frontend developer than if you are full stack of backend.
 
 
 ![](Job_city.png)               ![](Job_title.png)
 
-![](Correlation.png)
+   ![](Correlation.png)
 
 
