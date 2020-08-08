@@ -62,6 +62,6 @@ After scraping the data,  I did the following to clean the data to make it usabl
 
 # Exploratory Data Analysis (EDA)
 
-![][Correlation.png]
+![](Correlation.png)
 
 
